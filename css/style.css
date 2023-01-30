@@ -65,4 +65,33 @@ p > span {
     background-color: #5dc0eb;
 }
 
+/* OTHER ARTICLES */
+.other-articles > p {
+    margin-top: 120px;
+    font-size: 22px;
+    color: #acacac;
+    font-weight: 700;
+}
 
+.also {
+    height: 208px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    color: white;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
