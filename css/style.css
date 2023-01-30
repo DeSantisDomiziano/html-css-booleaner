@@ -1,7 +1,9 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* LOGO & BG */
 #logo {
     width: 200px;
     position: absolute;
@@ -14,4 +16,15 @@ header {
     height: 22vh;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);   
+}
+
+/* TITLE */
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+a {
+    color: #5dc0eb;
+    text-decoration: none;
 }
