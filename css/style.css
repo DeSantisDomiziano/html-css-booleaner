@@ -8,14 +8,20 @@ body {
     width: 200px;
     position: absolute;
     bottom: 0;
-    left: 5%;
+    left: 10%;
 }
 
 header {  
     position: relative;
-    height: 22vh;
+    height: 12vh;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);   
+}
+
+/* MAIN */
+main {
+    width: 80%;
+    margin: auto;
 }
 
 /* TITLE */
@@ -24,7 +30,39 @@ h1 {
     margin-bottom: 0;
 }
 
+.title > span {
+    color: #acacac;
+}
+
 a {
     color: #5dc0eb;
     text-decoration: none;
 }
+
+/* LEANDIG PAGE */
+figure {
+    margin: 0;
+    font-size: 12px;
+}
+
+p > span {
+    background-color: yellow;
+}
+
+/* TABLE MEGA DIV */
+.row-left, .row-center, .row-right {
+    display: inline-block;
+    width: 32%;
+}
+
+#row-head {
+    background-color: #4ea0ff;
+    color: white;
+    padding: 5px;
+} 
+
+#first-row, #third-row {
+    background-color: #5dc0eb;
+}
+
+
