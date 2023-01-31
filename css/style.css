@@ -39,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+.date {
+    font-size: 12px;
+}
+
 /* LEANDIG PAGE */
 figure {
     margin: 0;
